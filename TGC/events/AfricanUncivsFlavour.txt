@@ -384,29 +384,29 @@ country_event = {
 				# ideology = reactionary
 				# factor = 5
 			# }
-		# }
-		# ai_chance = {
-			# factor = 0
-		# }
-	# }
+		# 
+		#ai_chance = {
+			#factor = 0
+		#}
+	#}
 # }
+
 country_event = {
 		id = 2000000104
 		title = "EVTNAME2000000104" #Choose a Writing System
 		desc = "EVTDESC2000000104" # Cool shit
 		picture = "become_hausaland"
 		trigger = {
-		AND{
+		AND = {
 		has_country_flag = choose_writing_system
 		has_country_flag = first_writing_group
-		OR{
-		GRE = {is_secondary_power = not}
-		BYZ = {is_secondary_power = not}
-		GRE = {is_greater_power = not}
-		BYZ = {is_greater_power = not}
+		OR = {
+		GRE = {is_secondary_power = no}
+		BYZ = {is_secondary_power = no}
+		GRE = {is_greater_power = no}
+		BYZ = {is_greater_power = no}
 		}
 		}
-
 		}
 
 	mean_time_to_happen = {
@@ -455,7 +455,7 @@ country_event = {
 		desc = "EVTDESC2000000105" # Cool shit
 		picture = "become_hausaland"
 		trigger = {
-		AND{
+		AND = {
 		has_country_flag = choose_writing_system
 		has_country_flag = second_writing_group
 		}
@@ -523,14 +523,14 @@ country_event = {
 	
 	country_event = { #simple way to allow hellenic alphabet
 		id = 2000000107
-		title = "EVTNAME2000000104" #Choose a Writing System
-		desc = "EVTDESC2000000104" # Cool shit
+		title = "EVTNAME2000000107" #Choose a Writing System
+		desc = "EVTDESC2000000107" # Cool shit
 		picture = "become_hausaland"
 		trigger = {
-		AND{
+		AND = {
 		has_country_flag = choose_writing_system
 		has_country_flag = first_writing_group
-		OR{
+		OR = {
 		GRE = {is_secondary_power = yes}
 		BYZ = {is_secondary_power = yes}
 		GRE = {is_greater_power_power = yes}
@@ -592,7 +592,7 @@ country_event = {
 		country_event = {
 		id = 2000000108
 		title = "EVTNAME2000000108" #Lose writing very cool
-		desc = "EVTDESC2000000108" # Cool shit
+		desc = "EVTDESC2000000108" #Cool shit
 		picture = "rebellion"
 		trigger = {
 		has_country_flag = writing_unciv
@@ -603,13 +603,16 @@ country_event = {
 		}
 			option = {
 			name = "EVTOPTA2000000108" #Rebels Ban Writing
-			remove_country_modifier = {Adopted_Ethiopic}
-			remove_country_modifier = {Adopted_Original}
-			remove_country_modifier = {Adopted_latin}
-			remove_country_modifier = {Adopted_Cyrilic}
-			remove_country_modifier = {Adopted_Hellenic}
-			remove_country_modifier = {Adopted_Arabic}
-			remove_country_modifier = {Adopted_Arabic}
+			remove_country_modifier = Adopted_Ethiopic
+			remove_country_modifier = Adopted_Original
+			remove_country_modifier = Adopted_latin
+			remove_country_modifier = Adopted_Cyrilic
+			remove_country_modifier = Adopted_Hellenic
+			remove_country_modifier = Adopted_Arabic
+			remove_country_modifier = Adopted_Chinese
+			add_country_modifier = {
+			name = lacks_writing_system
+			duration = -1 }
 			clr_country_flag = writing_unciv
 			clr_country_flag = checker_to_remove_writing
 			set_country_flag = lacking_writing_system
