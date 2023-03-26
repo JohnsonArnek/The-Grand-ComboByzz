@@ -369,3 +369,22 @@ EVTOPTA2000000099;Lets Finish this!;;;;;;;;;;;;;x
 EVTNAME2000000103;Negotiations Failed!;;;;;;;;;;;;;x
 EVTDESC2000000103;Our diplomatic efforts to gain control of a greater part of Hungary have failed miserably. It's now clear that we can't settle this issue peacefully and we'll have to gain what we want the hard way.;;;;;;;;;;;;;x
 EVTOPTA2000000103;Onwards, to war!;;;;;;;;;;;;;x
+EVTNAME2000000104;Choose a writing System!;;;;;;;;;;;;;x
+EVTDESC2000000104;Our state has been sufficiently westernized to finally adopt its own writing system.;;;;;;;;;;;;;x
+EVTOPTA2000000104;We shall adopt the widely used Latin alphabet the system of modernity.;;;;;;;;;;;;;x
+EVTOPTB2000000104;We shall adopt the widely used Cyrilic alphabet the system of autocracy.;;;;;;;;;;;;;x
+EVTOPTC2000000104;We shall adopt the Hellenic alphabet the system of antiquity.;;;;;;;;;;;;;x
+EVTOPTD2000000104;We shall adopt widely used Arabic Abjad the system of islam.;;;;;;;;;;;;;x
+EVTOPTE2000000104;We shall adopt the Ethiopic Abugida a trully african system..;;;;;;;;;;;;;x
+EVTOPTF2000000104;We shall adopt widely used Chinese Logographic the ideal system for multi-lingual states.;;;;;;;;;;;;;x
+EVTOPTG2000000104;We shall create our own African System.;;;;;;;;;;;;;x
+EVTNAME2000000105;Choose a writing System other options!;;;;;;;;;;;;;x
+EVTDESC2000000105;Our state has been sufficiently westernized to finally adopt its own writing system.;;;;;;;;;;;;;x
+EVTOPTL2000000104;More Options;;;;;;;;;;;;;x
+EVTOPTG2000000105;Starting Options.;;;;;;;;;;;;;x
+EVTNAME2000000106;Anti Literacy Movement!;;;;;;;;;;;;;x
+EVTDESC2000000106;Their movement is based on the belief that literacy is a tool of oppression and control by the ruling class, and that illiteracy promotes freedom, creativity, and independence.;;;;;;;;;;;;;x
+EVTOPTA2000000106;Foolishness of the highest Order.;;;;;;;;;;;;;
+EVTNAME2000000108;Reactionaries Push Back Literacy!;;;;;;;;;;;;;x
+EVTDESC2000000108;The Reactionary revolution succesfully pushed back writing to before we instituted our new writing system, they burned libraries and exiled officials. Our writing system while not lost, it as it never existed.;;;;;;;;;;;;;x
+EVTOPTA2000000108;Well, I guess we are returning to oral history.;;;;;;;;;;;;;
