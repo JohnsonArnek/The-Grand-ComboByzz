@@ -5797,7 +5797,7 @@ bad_immigration_policy = {
 	icon = 32
 }
 
-Adopted_latin ={
+Adopted_latin = {
 	global_pop_militancy_modifier = 0.02
 	global_pop_consciousness_modifier = 0.02
 	assimilation_rate = 0.025
@@ -5807,8 +5807,7 @@ Adopted_latin ={
 	icon = 9
 }
 
-Adopted_Cyrilic =
-{
+Adopted_Cyrilic = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
 	assimilation_rate = 0.025
@@ -5819,8 +5818,7 @@ Adopted_Cyrilic =
 	icon = 9
 }
 
-Adopted_Hellenic =
-{
+Adopted_Hellenic = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
 	assimilation_rate = 0.025
@@ -5830,8 +5828,7 @@ Adopted_Hellenic =
 	icon = 9
 }
 
-Adopted_Arabic =
-{
+Adopted_Arabic = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
 	assimilation_rate = 0.025
@@ -5841,8 +5838,7 @@ Adopted_Arabic =
 	icon = 9
 }
 
-Adopted_Ethiopic =
-{
+Adopted_Ethiopic = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
 	assimilation_rate = 0.025
@@ -5852,8 +5848,7 @@ Adopted_Ethiopic =
 	icon = 9
 }
 
-Adopted_Chinese =
-{
+Adopted_Chinese = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
 	assimilation_rate = 0.05
@@ -5862,8 +5857,7 @@ Adopted_Chinese =
 	icon = 9
 }
 
-Adopted_Original =
-{
+Adopted_Original = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
 	core_pop_militancy_modifier = -0.02
@@ -5874,8 +5868,7 @@ Adopted_Original =
 	icon = 9
 }
 
-Anti_Literacy_Movement =
-{
+Anti_Literacy_Movement = {
 global_pop_militancy_modifier = 0.02
 education_efficiency_modifier = -0.2
 }
