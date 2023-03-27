@@ -1497,20 +1497,19 @@ research_campaign;Active Research Campaign;;;;;;;;;;;;;x
 research_campaign_desc;We are currently focusing part of our annual budget on funding more research for our country;;;;;;;;;;;;;x
 church_property_confiscation;Church Property Confiscated;;;;;;;;;;;;;x
 church_property_confiscation_desc;We are fixing our budget holes with the property of the Catholic Church and its monasteries;;;;;;;;;;;;;x
-Adopted_Original;Adopted Original;;;;;;;;;;;;;x
-Adopted_Chinese;Adopted Chinese;;;;;;;;;;;;;x
-Adopted_Ethiopic;Adopted Ethiopic;;;;;;;;;;;;;x
-Adopted_Arabic;Adopted Arabic;;;;;;;;;;;;;x
-Adopted_Hellenic;Adopted Hellenic;;;;;;;;;;;;;x
-Adopted_Cyrilic;Adopted Cyrilic;;;;;;;;;;;;;x
 Adopted_latin;Adopted Latin;;;;;;;;;;;;;x
-Adopted_Original_desc;Adopted the Original writing system;;;;;;;;;;;;;x
-Adopted_Chinese_desc;Adopted the Chinese system;;;;;;;;;;;;;x
-Adopted_Ethiopic_desc;Adopterd the Ethiopic system;;;;;;;;;;;;;x
-Adopted_Arabic_desc;Adopted the Arabic system;;;;;;;;;;;;;x
-Adopted_Hellenic_desc;Adopted the Hellenic alphabet;;;;;;;;;;;;;x
-Adopted_Cyrilic_desc;Adopted the Cyrilic alphabet;;;;;;;;;;;;;x
 Adopted_latin_desc;Adopted the Latin alphabet;;;;;;;;;;;;;x
+Adopted_Cyrilic;Adopted Cyrilic;;;;;;;;;;;;;x
+Adopted_Cyrilic_desc;Adopted the Cyrilic alphabet;;;;;;;;;;;;;x
+Adopted_Hellenic;Adopted Hellenic;;;;;;;;;;;;;x
+Adopted_Hellenic_desc;Adopted the Hellenic alphabet;;;;;;;;;;;;;x
+Adopted_Arabic;Adopted Arabic;;;;;;;;;;;;;x
+Adopted_Arabic_desc;Adopted the Arabic system;;;;;;;;;;;;;x
+Adopted_Ethiopic;Adopted Ethiopic;;;;;;;;;;;;;x
+Adopted_Ethiopic_desc;Adopterd the Ethiopic system;;;;;;;;;;;;;x
+Adopted_Chinese;Adopted Chinese;;;;;;;;;;;;;x
+Adopted_Chinese_desc;Adopted the Chinese system;;;;;;;;;;;;;x
+Adopted_Original;Adopted Original;;;;;;;;;;;;;x
+Adopted_Original_desc;Adopted the Original writing system;;;;;;;;;;;;;x
 Anti_Literacy_Movement;Anti Literacy Movement;;;;;;;;;;;;;x
 Anti_Literacy_Movement_desc;An anti Literacy Movement;;;;;;;;;;;;;x
-
