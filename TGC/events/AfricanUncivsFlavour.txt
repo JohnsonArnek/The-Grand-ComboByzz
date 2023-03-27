@@ -410,7 +410,7 @@ country_event = {
 		}
 
 	mean_time_to_happen = {
-		months = -1
+		months = 1
 		}
 		option = {
 			name = "EVTOPTA2000000104" #Choose a Writing System Latin Alphabet
@@ -462,7 +462,7 @@ country_event = {
 		}
 
 	mean_time_to_happen = {
-		months = -1
+		months = 1
 		}
 				option = {
 			name = "EVTOPTE2000000104" #Choose a Writing System Ethiopic Abugida	
@@ -540,10 +540,10 @@ country_event = {
 		}
 
 	mean_time_to_happen = {
-		months = -1
+		months = 1
 		}
 		option = {
-			name = "EVTOPTA2000000104" #Choose a Writing System Latin Alphabet
+			name = "EVTOPTA2000000107" #Choose a Writing System Latin Alphabet
 			prestige = 5
 			clr_country_flag = choose_writing_system
 			add_country_modifier = {
@@ -552,7 +552,7 @@ country_event = {
 			}
 		}
 		option = {
-			name = "EVTOPTB2000000104" #Choose a Writing System Cyrilic Alphabet
+			name = "EVTOPTB2000000107" #Choose a Writing System Cyrilic Alphabet
 			prestige = 5
 			clr_country_flag = choose_writing_system
 			add_country_modifier = {
@@ -562,7 +562,7 @@ country_event = {
 
 		}
 				option = {
-			name = "EVTOPTC2000000104" #Choose a Writing System Hellenic Alphabet
+			name = "EVTOPTC2000000107" #Choose a Writing System Hellenic Alphabet
 			prestige = 5
 			clr_country_flag = choose_writing_system
 			add_country_modifier = {
@@ -572,7 +572,7 @@ country_event = {
 
 		}
 				option = {
-			name = "EVTOPTD2000000104" #Choose a Writing System an Arabic Abjad
+			name = "EVTOPTD2000000107" #Choose a Writing System an Arabic Abjad
 			prestige = 5
 			clr_country_flag = choose_writing_system
 			add_country_modifier = {
@@ -582,7 +582,7 @@ country_event = {
 
 		}
 				option = {
-			name = "EVTOPTL2000000104" #More Options
+			name = "EVTOPTL2000000107" #More Options
 			set_country_flag = second_writing_group
 			clr_country_flag = first_writing_group
 			}
@@ -599,7 +599,7 @@ country_event = {
 		has_country_flag = checker_to_remove_writing
 		}
 		mean_time_to_happen = {
-		months = -1
+		months = 1
 		}
 			option = {
 			name = "EVTOPTA2000000108" #Rebels Ban Writing
