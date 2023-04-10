@@ -2562,10 +2562,11 @@ country_event = {
 
 #1841 Rebellion in Guria
 province_event = {
-
+			
 	id = 32535
 	title = "EVTNAME32535"
 	desc = "EVTDESC32535"
+	picture = "prov_uprising"
 
 	trigger = {
 		NOT = { owner = { tag = TUR } }
@@ -8528,11 +8529,11 @@ country_event = {
 			mean_time_to_happen = { 
 				months = 12 
 				modifier = {
-					factor = 0.5
+					factor = 0.7
 					year = 1863
 				}
 				modifier = {
-					factor = 0.25
+					factor = 0.6
 					year = 1866
 				}
 			}
