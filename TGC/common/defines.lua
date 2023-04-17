@@ -630,9 +630,9 @@ defines = {
 		PROMOTION_ASSIMILATION_CHANCE = 0.05,
 		LUXURY_THRESHOLD = 500,
 		BASE_GOODS_DEMAND = 0.8, --0.8
-		BASE_POPGROWTH = 0.0001,
+		BASE_POPGROWTH = 0.00009,
 		MIN_LIFE_RATING_FOR_GROWTH = 30,
-		LIFE_RATING_GROWTH_BONUS = 0.0001,
+		LIFE_RATING_GROWTH_BONUS = 0.00009,
 		LIFE_NEED_STARVATION_LIMIT = 0.5,
 
 		MIL_LACK_EVERYDAY_NEED = 0.05, -- was 0.1
@@ -661,7 +661,7 @@ defines = {
 
 		POP_SAVINGS = 0.018,
 
-		STATE_CREATION_ADMIN_LIMIT = 0.015,
+		STATE_CREATION_ADMIN_LIMIT = 0.012,
 		MIL_TO_JOIN_REBEL = 8, -- Rebels over this will join a faction
 		MIL_TO_JOIN_RISING = 9, -- Rebels over this will join a general rising
 		MIL_TO_AUTORISE = 9, -- Rebels over this rise no matter what
