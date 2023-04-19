@@ -350,7 +350,6 @@ country_event = {
 }
 
 #Global Victory check
-
 country_event = { 
 	id = 66031
 	title = "global_victory_trigger"
@@ -358,14 +357,17 @@ country_event = {
 	picture = rebuild_society
 
 	trigger = {
+		tag = JAN
 		ZOM = { exists = no }
-		year = 1850
-		OR = { NOT = { JAN = { has_country_modifier = ap_zm_timer } } year = 1866 }
+		year = 1837
+		OR = {	year = 1860
+				NOT = { JAN = { has_country_modifier = ap_zm_timer } }
+		}
 	}
 
 	fire_only_once = yes
 
-	mean_time_to_happen = { days = 10 }
+	mean_time_to_happen = { days = 1 }
 
 	immediate = {
 		any_country = { country_event = 66033 clr_country_flag = zombie_outbreak clr_country_flag = assets_siezed }
