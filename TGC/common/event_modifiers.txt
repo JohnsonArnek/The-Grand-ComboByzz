@@ -3249,7 +3249,7 @@ latin_monetary_union = {
 }
 
 disorganized_union = {
-	administrative_efficiency_modifier = -0.15
+	administrative_efficiency_modifier = -0.2
 	tax_efficiency = -0.05
 	import_cost = 0.2
 	max_tariff = -0.1
@@ -4250,7 +4250,18 @@ timber_employment_fix = {
 		icon = 25
 	}
 	soldier_fix = {
-		icon = 25
+		icon = 16
+	}
+	
+	militarization_of_society = {
+		land_unit_start_experience = 5
+		mobilisation_economy_impact = -0.5
+		supply_consumption = -0.05
+		leadership_modifier = 0.1
+		mobilisation_size = 0.05
+		army_tech_research_bonus = 0.05
+		min_military_spending = 0.3
+		icon = 16
 	}
 
 mandate_of_heaven = {
@@ -5101,6 +5112,12 @@ removed_fifth_pillar = {
 	}
 
 	sixtysix_famine = {
+		local_RGO_output = -0.45
+		immigrant_push = 0.25
+		icon = 37
+	}
+
+	sixtysix_famine_severe = {
 		local_RGO_output = -0.75
 		immigrant_push = 0.5
 		population_growth = -0.01
@@ -5108,9 +5125,16 @@ removed_fifth_pillar = {
 	}
 
 	great_famine_years = {
+		local_RGO_output = -0.5
+		immigrant_push = 0.5
+		population_growth = -0.02
+		icon = 37
+	}
+
+	great_famine_years_severe = {
 		local_RGO_output = -0.9
 		immigrant_push = 1
-		population_growth = -0.07
+		population_growth = -0.03
 		icon = 37
 	}
 
