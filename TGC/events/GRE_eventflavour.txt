@@ -56,11 +56,11 @@ country_event = {
 			has_country_flag = koini3
 			OR{ 
 				AND{
-					NOT {exists = BUL}
+					NOT = {exists = BUL}
 					exists = ALB
 					}
 				AND{
-					NOT {exists = ALB}
+					NOT = {exists = ALB}
 					exists = BUL
 					}
 			}
