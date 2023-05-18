@@ -116,8 +116,8 @@ country_event = {
 			has_country_flag = koini3
 			has_country_flag = koini2
 		}
-		NOT{exists = BUL}
-		NOT{exists = ALB}
+		NOT = {exists = BUL}
+		NOT = {exists = ALB}
 		}
 		mean_time_{
 			day = 1
