@@ -5091,10 +5091,7 @@ political_decisions = {
 	}
 establish_writing_system = {
 		picture = become_hausaland
-		potential = {
-			has_country_flag = lacking_writing_system
-		}
-
+		potential = { has_country_flag = lacking_writing_system }
 		allow = {
 			war = no
 			money = 10000	
@@ -5102,9 +5099,9 @@ establish_writing_system = {
 				has_country_modifier = western_influences
 				has_country_modifier = western_presence
 				civilized = yes	
-			}
+				}
 			NOT = { has_country_modifier = uncivilized_isolationism }
-		}
+			}
 		effect = {
 			clr_country_flag = lacking_writing_system
 			remove_country_modifier = lacks_writing_system
@@ -5113,7 +5110,7 @@ establish_writing_system = {
 			set_country_flag = writing_angery_starter
 			set_country_flag = writing_unciv #Unciv Rebel knower
 			treasury = -10000
-		}
+			}
 		ai_will_do = { factor = 1 }
-	}
-	}
+			}
+}
