@@ -3677,7 +3677,7 @@ political_decisions = {
 			  literacy  = 10
 		 	 }
 		  allow = {
-			NOT {has_country_flag = greek_language_debate}
+			NOT = {has_country_flag = greek_language_debate}
 			 }
 		 effect = {
 			country_event = 2000000115
