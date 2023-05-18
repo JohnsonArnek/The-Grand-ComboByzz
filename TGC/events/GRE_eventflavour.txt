@@ -9,22 +9,22 @@ country_event = {
 			prestige = 5
 			add_country_modifier = {name = Dimotiki duration = -1 }
 			add_country_modifier = {name = Language_Debate duration = 1800 }
-			remove_country_modifier = {name = Disglosia}
+			remove_country_modifier = Disglosia
 			}
 		option = {
 			name = "EVTOPTB2000000115" #Choose an Official Version of the Language Katharevousa
 			prestige = 5
 			add_country_modifier = {name = Katharevousa duration = -1 }
 			add_country_modifier = {name = Language_Debate duration = 1800 }
-			remove_country_modifier = {name = Disglosia}
+			remove_country_modifier = Disglosia
 			}
 		option = {
 			name = "EVTOPTC2000000115" #Choose an Official Version of the Language Ancient Greek (Koini Greek)
 			prestige = 5
 			add_country_modifier = {name = Koini_Greek1 duration = -1 }
 			add_country_modifier = {name = Language_Debate duration = 1800 }
-			remove_country_modifier = {name = Disglosia}
-			add_country_flag = koini1
+			remove_country_modifier = Disglosia
+			set_country_flag = koini1
 			}
 	}
 	country_event = {
@@ -38,7 +38,7 @@ country_event = {
 			NOT = {has_country_flag= greek_language_debate}
 		}
 		mean_time_to_happen = {
-			day = 1
+			days = 1
 		}
 		option = {
 			name = "EVTOPTA2000000116" #Not Decision Taken
@@ -66,16 +66,16 @@ country_event = {
 			}
 		}
 		mean_time_to_happen = {
-			day = 1
+			days = 1
 		}
 		option = {
 			name = "EVTOPTA2000000117" 
 			add_country_modifier = {name = Koini_Greek2 duration = -1 }
-			remove_country_modifier = {name = Koini_Greek1}
-			remove_country_modifier = {name = Koini_Greek3}
-			add_country_flag = koini2
-			remove_country_flag = koini1
-			remove_country_flag = koini3
+			remove_country_modifier = Koini_Greek1
+			remove_country_modifier = Koini_Greek3
+			set_country_flag = koini2
+			clr_country_flag  = koini1
+			clr_country_flag  = koini3
 		}
 	}
 
@@ -93,16 +93,16 @@ country_event = {
 			exists  = ALB
 		}
 		mean_time_to_happen = {
-			day = 1
+			days = 1
 		}
 		option = {
 			name = "EVTOPTA2000000118" 
 			add_country_modifier = {name = Koini_Greek3 duration = -1 }
-			remove_country_modifier = {name = Koini_Greek2}
-			remove_country_modifier = {name = Koini_Greek1}
-			add_country_flag = koini3
-			remove_country_flag = koini1
-			remove_country_flag = koini2
+			remove_country_modifier =  Koini_Greek2
+			remove_country_modifier =  Koini_Greek1
+			set_country_flag = koini3
+			clr_country_flag  = koini1
+			clr_country_flag  = koini2
 		}
 	}
 
@@ -120,15 +120,15 @@ country_event = {
 		NOT = { exists = ALB}
 		}
 		mean_time_to_happen = {
-			day = 1
+			days = 1
 		}
 		option = {
 			name = "EVTOPTA2000000119" 
 			add_country_modifier = {name = Koini_Greek1 duration = -1 }
-			remove_country_modifier = {name = Koini_Greek2}
-			remove_country_modifier = {name = Koini_Greek3}
-			add_country_flag = koini1
-			remove_country_flag = koini3
-			remove_country_flag = koini2
+			remove_country_modifier = Koini_Greek2
+			remove_country_modifier = Koini_Greek3
+			set_country_flag = koini1
+			clr_country_flag  = koini3
+			clr_country_flag  = koini2
 		}
 	}
