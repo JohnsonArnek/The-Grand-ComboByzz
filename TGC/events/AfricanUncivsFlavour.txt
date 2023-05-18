@@ -537,8 +537,8 @@ country_event = { #simple way to allow hellenic alphabet
 				OR = {
 				GRE = {is_secondary_power = yes}
 				BYZ = {is_secondary_power = yes}
-				GRE = {is_greater_power_power = yes}
-				BYZ = {is_greater_power_power = yes}
+				GRE = {is_greater_power = yes}
+				BYZ = {is_greater_power = yes}
 				     }
 				}
 			   }
