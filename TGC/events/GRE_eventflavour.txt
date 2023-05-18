@@ -50,7 +50,7 @@ country_event = {
 		id = 2000000117
 		title = "EVTNAME2000000117" #Koini Weakening
 		desc = "EVTDESC2000000117" # Cool shit
-		picture = "greek_language_event"	
+		picture = "church_slavonic"	
 		trigger{
 			has_country_flag = koini1
 			has_country_flag = koini3
@@ -83,7 +83,7 @@ country_event = {
 		id = 2000000118
 		title = "EVTNAME2000000118" #Koini Weakening
 		desc = "EVTDESC2000000118" # Cool shit
-		picture = "greek_language_event"	
+		picture = "church_slavonic"	
 		trigger{
 		OR{
 			has_country_flag = koini1
@@ -110,7 +110,7 @@ country_event = {
 		id = 2000000119
 		title = "EVTNAME2000000119" #Koini Stonk
 		desc = "EVTDESC2000000119" # Cool shit
-		picture = "greek_language_event"	
+		picture = "koine_greek"	
 		trigger{
 		OR{
 			has_country_flag = koini3
