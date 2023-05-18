@@ -3674,14 +3674,14 @@ political_decisions = {
 		picture = Greek_language_question
 		 potential = {
 			  romanticism = 1  
-			  literacy  = 10
+			  literacy  = 0.1
 		 	 }
 		  allow = {
 			NOT = {has_country_flag = greek_language_debate}
 			 }
 		 effect = {
 			country_event = 2000000115
-			add_country_flag = greek_language_debate
+			set_country_flag = greek_language_debate
 		   	 }  
 		 ai_will_do = { factor = 1 }
 	 }
