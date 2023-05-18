@@ -33,11 +33,11 @@ country_event = {
 		desc = "EVTDESC2000000116" # Cool shit
 		picture = "greek_language_event"
 		fire_only_once = yes		
-		trigger{
+		trigger = {
 			year = 1880
 			NOT = {has_country_flag= greek_language_debate}
 		}
-		mean_time_{
+		mean_time_to_happen = {
 			day = 1
 		}
 		option = {
@@ -51,21 +51,21 @@ country_event = {
 		title = "EVTNAME2000000117" #Koini Weakening
 		desc = "EVTDESC2000000117" # Cool shit
 		picture = "church_slavonic"	
-		trigger{
+		trigger = {
 			has_country_flag = koini1
 			has_country_flag = koini3
-			OR{ 
-				AND{
+			OR = { 
+				AND = {
 					NOT = {exists = BUL}
 					exists = ALB
 					}
-				AND{
+				AND = {
 					NOT = {exists = ALB}
 					exists = BUL
 					}
 			}
 		}
-		mean_time_{
+		mean_time_to_happen = {
 			day = 1
 		}
 		option = {
@@ -84,15 +84,15 @@ country_event = {
 		title = "EVTNAME2000000118" #Koini Weakening
 		desc = "EVTDESC2000000118" # Cool shit
 		picture = "church_slavonic"	
-		trigger{
-		OR{
+		trigger = {
+		OR = {
 			has_country_flag = koini1
 			has_country_flag = koini2
 			}
 			exists  = BUL
 			exists  = ALB
 		}
-		mean_time_{
+		mean_time_to_happen = {
 			day = 1
 		}
 		option = {
@@ -111,15 +111,15 @@ country_event = {
 		title = "EVTNAME2000000119" #Koini Stonk
 		desc = "EVTDESC2000000119" # Cool shit
 		picture = "koine_greek"	
-		trigger{
-		OR{
+		trigger = {
+		OR = {
 			has_country_flag = koini3
 			has_country_flag = koini2
 		}
 		NOT = {exists = BUL}
-		NOT = {exists = ALB}
+		NOT = { exists = ALB}
 		}
-		mean_time_{
+		mean_time_to_happen = {
 			day = 1
 		}
 		option = {
