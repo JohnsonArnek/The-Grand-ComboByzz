@@ -6172,12 +6172,10 @@ sacrifice_cd = {
 	icon = 21
 }
 
-# Greek Language Debate
 Dimotiki = {
 	core_pop_militancy_modifier = -0.02
 	global_pop_militancy_modifier = 0.02
 	assimilation_rate = 0.1
-	global_immigrant_attract = 0.02
 	research_points_modifier = 0.025
 	education_efficiency_modifier = 0.1
 	icon = 9
@@ -6186,24 +6184,22 @@ Dimotiki = {
 Katharevousa = {
 	core_pop_militancy_modifier = 0.01
 	global_pop_militancy_modifier = -0.01
-	global_pop_consciousness_modifier = 0.01
 	research_points_modifier = -0.025
 	education_efficiency_modifier = -0.05
 	prestige = 0.01
 	icon = 9
 }
-#Bulgaria and Albania Doesn't exist
+
 Koini_Greek1 = {
 	core_pop_militancy_modifier = 0.02
 	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.01
 	assimilation_rate = 0.3
 	research_points_modifier = -0.05
 	prestige = 0.02
 	education_efficiency_modifier = -0.1
 	icon = 9
 }
-#Bulgaria or Albania Exists
+
 Koini_Greek2 = {
 	core_pop_militancy_modifier = 0.02
 	global_pop_militancy_modifier = -0.02
@@ -6214,7 +6210,7 @@ Koini_Greek2 = {
 	education_efficiency_modifier = -0.1
 	icon = 9
 }
-#Albania and Bulgaria Exists
+
 Koini_Greek3 = {
 	core_pop_militancy_modifier = 0.02
 	global_pop_militancy_modifier = -0.02
@@ -6225,15 +6221,17 @@ Koini_Greek3 = {
 	education_efficiency_modifier = -0.1
 	icon = 9
 }
-Language_Debate= {
+
+Language_Debate = {
 	core_pop_militancy_modifier = 0.01
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
 	research_points_modifier = -0.025
 	education_efficiency_modifier = -0.1
 	icon = 9
+
 }
-Disglosia= {
+Disglosia = {
 	core_pop_militancy_modifier = 0.01
 	assimilation_rate = -0.01
 	research_points_modifier = -0.025
