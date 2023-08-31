@@ -134,3 +134,43 @@ country_event = {
 			clr_country_flag  = koini2
 		}
 	}
+	country_event = {
+		id = 2000000120
+		title = "EVTNAME2000000120" #Tribe
+		desc = "EVTDESC2000000120" # Tribe Desc
+		picture = "Tribal_Village_Gre"	
+		trigger = {
+		OR = {
+			tag = GRE 
+			tag = KRE 
+			tag = BYZ
+		}
+		owns = 2015
+		year = 1910 
+		}
+		mean_time_to_happen = {
+			days = 1
+		}
+		option = {
+			name = "EVTOPTA2000000120"
+			2015 = {
+				add_province_modifier = {
+					name = small_immigration_boom_province
+					duration = 3000
+					}
+
+			}
+			2015 = {
+				add_province_modifier = {
+						name = core_integration 
+						duration = -1 
+					}
+			}
+			money = -10000
+		}
+			option = {
+			name = "EVTOPTA2000000120"
+			prestige = 10
+
+		}
+	}
