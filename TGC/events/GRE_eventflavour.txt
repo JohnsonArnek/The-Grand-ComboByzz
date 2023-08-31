@@ -169,7 +169,7 @@ country_event = {
 			money = -10000
 		}
 			option = {
-			name = "EVTOPTA2000000120"
+			name = "EVTOPTB2000000120"
 			prestige = 10
 
 		}
