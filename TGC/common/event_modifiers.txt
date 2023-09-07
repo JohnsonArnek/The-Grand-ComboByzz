@@ -3137,7 +3137,7 @@ western_military_mission = {
 	icon = 7
 }
 
-##### Byzantines #####
+##### Byzantines/Greek #####
 religious_resurgence = {
 	prestige = 0.5
 	global_assimilation_rate = 0.10
@@ -3173,6 +3173,14 @@ renovated_constantinople = {
 	local_factory_output = 0.1
 	assimilation_rate = 0.75
 	icon = 15
+}
+
+	Colonial_Destiny = {
+	prestige = 0.5
+	global_assimilation_rate = 0.05
+	global_pop_militancy_modifier = -0.01
+	non_accepted_pop_militancy_modifier = 0.01
+	icon = 29
 }
 
 
