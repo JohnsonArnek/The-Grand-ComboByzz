@@ -976,7 +976,13 @@ reclaim_the_empire = {
 					war_policy = jingoism
 				}
 			}
+		OR = {
+			AND = { THIS = { any_owned_province = { port = yes } } any_owned_province = { port = yes } }
+			neighbour = THIS
 			war_with = THIS
+			any_neighbor_country = { substate_of = THIS }
+			NOT = { is_our_vassal = THIS }
+			}
 		}
 		is_vassal = no
 		OR = {
@@ -9713,8 +9719,7 @@ creating_greek_empire = {
 
 	can_use = {
 		THIS = {
-			has_global_flag = greek_colonialsm_stage1
-			is_greater_power = yes
+		is_greater_power = yes
 			tag = GRE
 			ai = no
 		}
@@ -9725,7 +9730,13 @@ creating_greek_empire = {
 					war_policy = jingoism
 				}
 			}
+		OR = {
+			AND = { THIS = { any_owned_province = { port = yes } } any_owned_province = { port = yes } }
+			neighbour = THIS
 			war_with = THIS
+			any_neighbor_country = { substate_of = THIS }
+			NOT = { is_our_vassal = THIS }
+		}
 		}
 		is_vassal = no
 		OR = {
@@ -10220,6 +10231,17 @@ creating_greek_empire = {
 					any_owned_province = { port = yes }
 				}
 			}
+		}
+	}
+	po_demand_state = yes
+
+	war_name = WAR_RECLAIM_THE_EMPIRE_NAME
+
+	on_add = {
+		move_issue_percentage = {
+			from = jingoism
+			to = pro_military
+			value = 0.05
 		}
 	}
 }
