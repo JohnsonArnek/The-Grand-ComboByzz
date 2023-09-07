@@ -3806,7 +3806,7 @@ political_decisions = {
 			  NOT = { has_country_flag = greek_turkcol }
 		  }
 		  allow = {
-			has_country_flag = byzantine_armenia
+			has_country_flag = no_turks_in_coast
 			  all_core = { owned_by = THIS }		
 			  is_disarmed = no
 			  NOT = { has_country_modifier = no_more_war }	
@@ -3832,11 +3832,11 @@ political_decisions = {
 		grecol_egypt = {
 		picture = map_egypt
 		potential = {
-			has_country_flag = no_turks_in_coast
+			has_country_flag = greek_turkcol
 			  NOT = { has_country_flag = greek_egycol }
 		  }
 		  allow = {
-			has_country_flag = byzantine_levant
+			has_country_flag = greek_turkcol
 			  all_core = { owned_by = THIS }	
 			  is_disarmed = no
 			  NOT = { has_country_modifier = no_more_war }			  
@@ -3862,7 +3862,8 @@ political_decisions = {
 		potential = {
 			has_country_flag = greek_egycol
 			has_country_flag = greek_turkcol
-		NOT = { has_country_flag = greek_colonialsm_stage21 }	
+		NOT = { has_country_flag = greek_colonialsm_stage21 }
+		NOT = { has_country_flag = greek_colonialsm_stage22 }
 		}
 		allow = {
 			is_greater_power = yes
@@ -3883,7 +3884,8 @@ political_decisions = {
 		potential = {
 			has_country_flag = greek_egycol
 			has_country_flag = greek_turkcol
-			NOT = { has_country_flag = greek_colonialsm_stage22 }	
+			NOT = { has_country_flag = greek_colonialsm_stage22 }
+			NOT = { has_country_flag = greek_colonialsm_stage21 }
 		}
 
 		allow = {
