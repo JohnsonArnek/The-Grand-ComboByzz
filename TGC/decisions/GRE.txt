@@ -3702,8 +3702,7 @@ political_decisions = {
 		   	 }  
 		 ai_will_do = { factor = 1 }
 	 }
-}
-	
+
 #Description: If you manage to fully realize the Megali idea, you can instead focus in Creating a Colonial Empire.
 	greek_colonial_aspirations = {
 		picture = dreams_of_empire
@@ -3711,24 +3710,22 @@ political_decisions = {
 			NOT = { exists = BYZ }
 			has_country_flag = megali_idea_claimed
 			NOT = { has_country_flag = greek_colonialsm_stage1 }
-
 		}
-
 		allow = {
 			is_greater_power = yes
 			has_unclaimed_cores = no
+			NOT = { has_country_flag = greek_colonialsm_stage1 }
 		}
-
 		effect = {
 			prestige = 20 #Generic Prestige Reward
 			badboy = -5 #Generic Infamy Reward
 			add_country_modifier = { name = global_baby_boom_small duration = 1800 } #Generic Population Reward
-			add_country_flag = greek_colonialsm_stage1
+			set_country_flag = greek_colonialsm_stage1
 		}
 		ai_will_do = { factor = 1 }
 	}
 
-    #Description: No Coast For You :(.
+    #Description: No Coast For You 
 	push_the_turks_inland = {
 		picture = map_anatolia
 		potential = {
@@ -3748,8 +3745,8 @@ political_decisions = {
 		effect = {
 			prestige = 60
 			badboy = 5
-			TUR_1096 = { add_core = BYZ }
-			TUR_894 = { add_core = BYZ }
+			TUR_1096 = { add_core = GRE }
+			TUR_894 = { add_core = GRE }
 			set_country_flag = no_turks_in_coast
 			any_country = {
 					limit = {
@@ -3875,7 +3872,7 @@ political_decisions = {
 			prestige = 20 #Generic Prestige Reward
 			badboy = -5 #Generic Infamy Reward
 			add_country_modifier = { name = Colonial_Destiny }
-			add_country_flag = greek_colonialsm_stage21
+			set_country_flag = greek_colonialsm_stage21
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3897,7 +3894,7 @@ political_decisions = {
 			prestige = 25 #Generic Prestige Reward
 			badboy = 5 #In this case it threatens the intrests of the Great Powers
 			add_country_modifier = { name = global_baby_boom_small duration = 1800 } #Generic Population Reward
-			add_country_flag = greek_colonialsm_stage22
+			set_country_flag = greek_colonialsm_stage22
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3976,7 +3973,7 @@ political_decisions = {
 			prestige = 20 #Generic Prestige Reward
 			badboy = -5 #Generic Infamy Reward
 			add_country_modifier = { name = Colonial_Destiny }
-			add_country_flag = greek_colonialsm_stage211
+			set_country_flag = greek_colonialsm_stage211
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3997,7 +3994,7 @@ political_decisions = {
 			prestige = 20 #Generic Prestige Reward
 			badboy = -5 #Generic Infamy Reward
 			add_country_modifier = { name = Colonial_Destiny }
-			add_country_flag = greek_colonialsm_stage212
+			set_country_flag = greek_colonialsm_stage212
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -4383,5 +4380,4 @@ political_decisions = {
 			 }
 		 }
 	}
-	
-	
+}
