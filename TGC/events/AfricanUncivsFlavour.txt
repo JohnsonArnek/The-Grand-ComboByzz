@@ -181,7 +181,6 @@ country_event = {
 		add_accepted_culture = songhai
 		add_accepted_culture = berber
 		#add_accepted_culture = tuareg
-		#add_accepted_culture = african_minor
 		all_core = { add_core = TOU }
 		SEG = { all_core = { add_core = TOU } }
 		DND = { all_core = { add_core = TOU } }
@@ -512,7 +511,7 @@ country_event = {
 		}
 		
 		mean_time_to_happen = {
-			months = -1
+			months = 1
 		}
 		
 		option = {
@@ -537,8 +536,8 @@ country_event = { #simple way to allow hellenic alphabet
 				OR = {
 				GRE = {is_secondary_power = yes}
 				BYZ = {is_secondary_power = yes}
-				GRE = {is_greater_power_power = yes}
-				BYZ = {is_greater_power_power = yes}
+				GRE = {is_greater_power = yes}
+				BYZ = {is_greater_power = yes}
 				     }
 				}
 			   }

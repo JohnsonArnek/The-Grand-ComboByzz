@@ -44,6 +44,10 @@ native_removal_act_policy = {
 	icon = 18
 }
 
+slavery_timer = {
+	icon = 20
+}
+
 #local_trinket_health_care = {
 #	#population_growth = 0.002
 #	icon = 19
@@ -1521,7 +1525,7 @@ organic_work = {
 ##### GREAT POWERS #####
 protector_of_eastern_christendom = {
 	prestige =  0.1
-	icon = 17
+	icon = 27
 }
 
 international_negotiations = {
@@ -1714,7 +1718,7 @@ witwatersrand_gold_rush = {
 	penal_colonies = {
 		core_pop_militancy_modifier = -0.01
 		prestige =  0.02
-		icon = 17
+		icon = 34
 	}
 
 ## Economic Events ##
@@ -2496,8 +2500,8 @@ treaties_of_velasco = {
 	}
 
 	america_new_world = {
-		global_immigrant_attract = 0.5
-		global_population_growth = 0.01
+		global_immigrant_attract = 0.2
+		global_population_growth = 0.015
 		icon = 31
 	}
 
@@ -3133,7 +3137,7 @@ western_military_mission = {
 	icon = 7
 }
 
-##### Byzantines #####
+##### Byzantines/Greek #####
 religious_resurgence = {
 	prestige = 0.5
 	global_assimilation_rate = 0.10
@@ -3169,6 +3173,14 @@ renovated_constantinople = {
 	local_factory_output = 0.1
 	assimilation_rate = 0.75
 	icon = 15
+}
+
+	Colonial_Destiny = {
+	prestige = 0.5
+	global_assimilation_rate = 0.05
+	global_pop_militancy_modifier = -0.01
+	non_accepted_pop_militancy_modifier = 0.01
+	icon = 29
 }
 
 
@@ -3468,7 +3480,7 @@ constantinople_patriarchate = {
 donbass_modifier = {
 	mine_RGO_eff = 0.25
 	mine_RGO_size = 4
-	rgo_output = 0.5
+	local_rgo_output = 0.5
 	local_factory_throughput = 0.05
 	immigrant_attract = 2
 	icon = 13
@@ -3477,7 +3489,7 @@ donbass_modifier = {
 central_ukraine_modifier = {
 	mine_RGO_eff = 0.125
 	mine_RGO_size = 0.125
-	rgo_output = 0.05
+	local_rgo_output = 0.05
 	immigrant_attract = 0.075
 	icon = 13
 }
@@ -3608,7 +3620,7 @@ war_minister_boulanger = {
 	mobilisation_size = 0.01
 	land_unit_start_experience = 5
 	ruling_party_support = 0.05
-	icon = 17
+	icon = 29
 }
 
 boulangisme = {
@@ -5905,7 +5917,7 @@ bad_immigration_policy = {
 Adopted_latin = {
 	global_pop_militancy_modifier = 0.02
 	global_pop_consciousness_modifier = 0.02
-	assimilation_rate = 0.025
+	global_assimilation_rate = 0.025
 	global_immigrant_attract = 0.02
 	research_points_modifier = 0.06
 	education_efficiency_modifier = 0.1
@@ -5915,7 +5927,7 @@ Adopted_latin = {
 Adopted_Cyrilic = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
-	assimilation_rate = 0.025
+	global_assimilation_rate = 0.025
 	global_immigrant_attract = 0.01
 	research_points_modifier = 0.04
 	war_exhaustion = -0.01
@@ -5926,7 +5938,7 @@ Adopted_Cyrilic = {
 Adopted_Hellenic = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
-	assimilation_rate = 0.025
+	global_assimilation_rate = 0.025
 	research_points_modifier = 0.04
 	prestige = 0.01
 	education_efficiency_modifier = 0.1
@@ -5936,7 +5948,7 @@ Adopted_Hellenic = {
 Adopted_Arabic = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
-	assimilation_rate = 0.025
+	global_assimilation_rate = 0.025
 	research_points_modifier = 0.03
 	global_pop_growth = 0.001
 	education_efficiency_modifier = 0.1
@@ -5946,7 +5958,7 @@ Adopted_Arabic = {
 Adopted_Ethiopic = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
-	assimilation_rate = 0.025
+	global_assimilation_rate = 0.025
 	research_points_modifier = 0.02
 	education_efficiency_modifier = 0.1
 	prestige = 0.02
@@ -5956,7 +5968,7 @@ Adopted_Ethiopic = {
 Adopted_Chinese = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
-	assimilation_rate = 0.05
+	global_assimilation_rate = 0.05
 	research_points_modifier = 0.03
 	education_efficiency_modifier = 0.1
 	icon = 9
@@ -5966,7 +5978,7 @@ Adopted_Original = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.01
 	core_pop_militancy_modifier = -0.02
-	assimilation_rate = 0.025
+	global_assimilation_rate = 0.025
 	research_points_modifier = 0.01
 	education_efficiency_modifier = 0.2
 	prestige = 0.04
@@ -6174,5 +6186,72 @@ sacrifice_cd = {
 
 craftsmen_fix_cooldown = {
     	icon = 12
+}
+
+Dimotiki = {
+	core_pop_militancy_modifier = -0.02
+	global_pop_militancy_modifier = 0.02
+	global_assimilation_rate = 0.1
+	research_points_modifier = 0.025
+	education_efficiency_modifier = 0.1
+	icon = 9
+}
+
+Katharevousa = {
+	core_pop_militancy_modifier = 0.01
+	global_pop_militancy_modifier = -0.01
+	research_points_modifier = -0.025
+	education_efficiency_modifier = -0.05
+	prestige = 0.01
+	icon = 9
+}
+
+Koini_Greek1 = {
+	core_pop_militancy_modifier = 0.02
+	global_pop_militancy_modifier = -0.02
+	global_assimilation_rate = 0.3
+	research_points_modifier = -0.05
+	prestige = 0.02
+	education_efficiency_modifier = -0.1
+	icon = 9
+}
+
+Koini_Greek2 = {
+	core_pop_militancy_modifier = 0.02
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.01
+	global_assimilation_rate = 0.02
+	research_points_modifier = -0.05
+	prestige = 0.02
+	education_efficiency_modifier = -0.1
+	icon = 9
+}
+
+Koini_Greek3 = {
+	core_pop_militancy_modifier = 0.02
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.01
+	global_assimilation_rate = 0.01
+	research_points_modifier = -0.05
+	prestige = 0.02
+	education_efficiency_modifier = -0.1
+	icon = 9
+}
+
+Language_Debate = {
+	core_pop_militancy_modifier = 0.01
+	global_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = 0.01
+	research_points_modifier = -0.025
+	education_efficiency_modifier = -0.1
+	icon = 9
+
+}
+Disglosia = {
+	core_pop_militancy_modifier = 0.01
+	global_assimilation_rate = -0.01
+	research_points_modifier = -0.025
+	education_efficiency_modifier = -0.1
+	icon = 9
 }
 
