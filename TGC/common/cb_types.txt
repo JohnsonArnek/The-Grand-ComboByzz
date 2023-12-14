@@ -122,7 +122,7 @@ test_end_war
 take_puppet
 # acquire_vassal_core_region
 liberate_puppet
-#take_capital
+take_capital
 #conquest_low
 negotiated_transfer
 great_war_penalty_cb
@@ -1594,7 +1594,7 @@ unification_humiliate_cb = {
 		}
 		NOT = { has_country_modifier = neutrality }
 		THIS = { NOT = { has_country_modifier = neutrality } }
-		THIS = { ai = yes NOT = { has_country_modifier = punctation_of_olmutz } }
+		THIS = { NOT = { has_country_modifier = punctation_of_olmutz } }
 	}
 	po_clear_union_sphere = yes
 
@@ -1675,7 +1675,7 @@ unification_GP_humiliate = {
 		}
 		NOT = { has_country_modifier = neutrality }
 		THIS = { NOT = { has_country_modifier = neutrality } }
-		THIS = { ai = yes NOT = { has_country_modifier = punctation_of_olmutz } }
+		THIS = { NOT = { has_country_modifier = punctation_of_olmutz } }
 	}
 
 	po_remove_prestige = yes
@@ -2896,9 +2896,9 @@ monroe_doctrine = {
 					primary_culture = bolivian
 					primary_culture = chilean
 					primary_culture = peruvian
-					primary_culture = argentinian
+					primary_culture = platinean
 					primary_culture = paraguayan
-					primary_culture = uruguayan
+					primary_culture = platinean
 					primary_culture = brazilian
 					AND = {
 						tag = CUB
@@ -2950,9 +2950,9 @@ monroe_doctrine = {
 				primary_culture = bolivian
 				primary_culture = chilean
 				primary_culture = peruvian
-				primary_culture = argentinian
+				primary_culture = platinean
 				primary_culture = paraguayan
-				primary_culture = uruguayan
+				primary_culture = platinean
 				primary_culture = brazilian
 				AND = {
 					tag = CUB
@@ -4879,10 +4879,7 @@ annex_africa_full = {
 			NOT = { tag = TUR }
 			total_amount_of_ships = 10
 			slavery = no_slavery
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes
-			}
+			rank = 16
 		  	NOT = { has_country_modifier = neutrality }
 			NOT = { has_country_flag = zaire_master }
 			#OR = {
@@ -7118,7 +7115,7 @@ take_puppet = {
 				is_vassal = no
 				in_sphere = THIS
 			}
-			country_event = 9999990
+			#country_event = 9999990 # BUG: Does not exist
 			country_event = 19370
 		}
 	}
@@ -7382,10 +7379,6 @@ negotiated_transfer = {
 	}
 
 	allowed_states = {
-		empty = no
-		any_owned_province = {
-            empty = no
-		}
 		NOT = { any_owned_province = { is_capital = yes } }
 	}
 
@@ -7705,9 +7698,9 @@ USS_monroe = {
 					primary_culture = bolivian
 					primary_culture = chilean
 					primary_culture = peruvian
-					primary_culture = argentinian
+					primary_culture = platinean
 					primary_culture = paraguayan
-					primary_culture = uruguayan
+					primary_culture = platinean
 					primary_culture = brazilian
 					primary_culture = caribeno
 					primary_culture = afro_caribeno
@@ -7748,9 +7741,9 @@ USS_monroe = {
 				primary_culture = bolivian
 				primary_culture = chilean
 				primary_culture = peruvian
-				primary_culture = argentinian
+				primary_culture = platinean
 				primary_culture = paraguayan
-				primary_culture = uruguayan
+				primary_culture = platinean
 				primary_culture = brazilian
 				primary_culture = caribeno
 				primary_culture = afro_caribeno
@@ -9697,6 +9690,11 @@ plague_cleanse = {
 }
 creating_greek_empire = {
 	sprite_index = 23
+
+
+# Acquire Core State
+conquest_of_the_wasteland = {
+	sprite_index = 5
 	is_triggered_only = yes
 	months = 12
 
@@ -10243,5 +10241,39 @@ creating_greek_empire = {
 			to = pro_military
 			value = 0.05
 		}
+	prestige_factor = 0
+	peace_cost_factor = 33
+	penalty_factor = 0
+	always = yes
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 2
+
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	can_use = {
+		tag = WAS
+		#THIS = { has_global_flag = global_victory }
+	}
+
+	allowed_states = {
+		OR = { any_owned_province = { any_neighbor_province = { owner = { tag = THIS } } } 
+			   any_owned_province = { country_units_in_province = THIS }
+		} 
+	}
+
+	po_demand_state = yes
+
+	war_name = WAR_RECONQUEST_OF_THE_WASTELAND
+
+	on_add = {
+	}
+
+	on_po_accepted = {
+		#country_event =	2650	# Territorial Loss event
 	}
 }
