@@ -1629,3 +1629,20 @@ country_event = {
 		}
 	}
 }
+
+#Alice Checker
+country_event = {
+    id = 54
+    title = "EVTNAME54"
+    desc = "EVTDESC54"
+    picture = alice
+
+	trigger = { has_global_flag = project_alice ai = no }
+
+	fire_only_once =  yes
+
+    option = {
+        name = "EVTOPTA54"
+    }
+    
+}
