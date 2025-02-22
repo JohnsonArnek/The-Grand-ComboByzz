@@ -1,0 +1,81 @@
+		institute_national_library = {
+		potential = {
+			malthusian_thought = 1
+			NOT = { has_country_modifier = nat_library_established }
+		}
+
+		allow = {
+			malthusian_thought = 1
+			money = 5000
+		}
+
+		effect = {
+			treasury = -5000
+			add_country_modifier = {
+				name = nat_library_established
+				duration = -1
+			}
+		}
+	}
+
+		institute_national_observatory = {
+		potential = {
+			idealism = 1
+			NOT = { has_country_modifier = nat_observ_established }
+		}
+
+		allow = {
+			idealism = 1
+			money = 5000
+		}
+
+		effect = {
+			treasury = -5000
+			add_country_modifier = {
+				name = nat_observ_established
+				duration = -1
+			}
+		}
+	}
+
+		institute_stamps = {
+		potential = {
+			freedom_of_trade  = 1
+			NOT = { has_country_modifier = adopted_stamps }
+		}
+
+		allow = {
+			freedom_of_trade  = 1
+			money = 5000
+		}
+
+		effect = {
+		treasury = -5000
+			add_country_modifier = {
+				name = adopted_stamps
+				duration = -1
+			}
+		}
+	}
+
+		adopt_a_national_anthem = {
+		potential = {
+			romanticism = 1
+			NOT = { has_country_modifier = adopted_anthem }
+		}
+
+		allow = {
+			romanticism = 1
+			money = 200
+		}
+
+		effect = {
+			treasury = -200
+			add_country_modifier = {
+				name = adopted_anthem
+				duration = -1
+			}
+		}
+	}
+
+}
