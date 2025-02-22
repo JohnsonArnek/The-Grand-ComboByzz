@@ -7,3 +7,5 @@ forced_indus_excavations_desc;The Indus Valley, home to Harappa and Mohenjo-Daro
 forced_indus_excavations_title;The Lost Cities of the Indus;;;;;;;;;;;;;x
 indus_excavations_desc;The ruins of Harappa and Mohenjo-Daro remain some of the most important archaeological sites in history. Rather than relying on crude methods of the past, we should launch a modern excavation, applying scientific techniques to reveal the secrets of the Indus Valley Civilization.;;;;;;;;;;;;;x
 indus_excavations_title;The Lost Cities of the Indus;;;;;;;;;;;;;x
+craftsmen_fix_desc;Fix the craftsmen and bureaucrat bugs. The craftsmen bug is when you have a province that has craftsmen of a non-accepted culture and none of an accepted culture. It forces all promoting pops to become the culture of the craftsmen. The bureaucrats bug is even more annoying: bureaucrats of a non-accepted culture get payed by your government but don't add to administration efficiency, meaning that if that you're just throwing away money.;;;;;;;;;;;;;
+craftsmen_fix_title;Craftsmen & Bureaucrats bug fix;;;;;;;;;;;;;
