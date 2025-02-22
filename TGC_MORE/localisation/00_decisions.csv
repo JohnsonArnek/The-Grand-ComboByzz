@@ -9,3 +9,11 @@ indus_excavations_desc;The ruins of Harappa and Mohenjo-Daro remain some of the 
 indus_excavations_title;The Lost Cities of the Indus;;;;;;;;;;;;;x
 craftsmen_fix_desc;Fix the craftsmen and bureaucrat bugs. The craftsmen bug is when you have a province that has craftsmen of a non-accepted culture and none of an accepted culture. It forces all promoting pops to become the culture of the craftsmen. The bureaucrats bug is even more annoying: bureaucrats of a non-accepted culture get payed by your government but don't add to administration efficiency, meaning that if that you're just throwing away money.;;;;;;;;;;;;;
 craftsmen_fix_title;Craftsmen & Bureaucrats bug fix;;;;;;;;;;;;;
+institute_national_library_desc;Instituiting a national library will allow us to centralize our knowledge stores in an easily accesible location.;;;;;;;;;;;;;x
+institute_national_library_title;Establish a national library.;;;;;;;;;;;;;x
+institute_national_observatory_desc;Instituiting a national observatory will better allow our brightest minds to understand the cosmos.Both a prestigious and progressive undertaking.;;;;;;;;;;;;;x
+institute_national_observatory_title;Establish a national Observatory;;;;;;;;;;;;;x
+institute_stamps_desc;Stamps are a fundemental requirement for the proper allocation of letters and goods. With the establishment of a national stamp system we can officially enter the industrial era.;;;;;;;;;;;;;x
+institute_stamps_title;Institute Stamps;;;;;;;;;;;;;x
+adopt_a_national_anthem_desc; An anthem is one of the core aspects of a state's national identity, it is generally seen as an apolitical unifying element it is time for us to choose a national anthem.;;;;;;;;;;;;;x
+adopt_a_national_anthem_title;Adopt a National Anthem.;;;;;;;;;;;;;x
