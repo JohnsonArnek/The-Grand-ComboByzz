@@ -1,4 +1,5 @@
-		institute_national_library = {
+political_decisions = {
+	institute_national_library = {
 		potential = {
 			malthusian_thought = 1
 			NOT = { has_country_modifier = nat_library_established }
