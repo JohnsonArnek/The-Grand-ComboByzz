@@ -1,3 +1,4 @@
+political_decisions = {
 	indus_excavations = {
 		potential = {
 			is_greater_power = yes
